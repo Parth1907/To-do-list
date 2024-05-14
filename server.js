@@ -6,7 +6,7 @@ app.use(express.static("public"));
 
 mongoose
 	.connect(
-		"mongodb+srv://kalraparth5682:pkkalra4ever@cluster0.stg5tfs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+		"" //write your mongodb cloud link here
 	)
 	.then(() => {
 		console.log("connected to mongoDB");
